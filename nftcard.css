@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Outfit:wght@300;400;600&family=Red+Hat+Display:ital,wght@0,500;0,900;1,500;1,700&display=swap');
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);  
+}
+.wrapper{
+    margin: 0 auto;
+    max-width: 300px;
+    margin-top: 20vh;
+
+}
+.top-image{
+    width: 100%;
+    border-radius: 12px;
+    height: 214px;
+    object-fit: cover;
+}
+
+.card{
+    background-color: hsl(216, 50%, 16%);
+    border: none;
+    padding: 8px;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+.middle{
+    padding: 5px;
+    border-bottom: 1px solid hsl(215, 51%, 70%);;
+}
+.equilibrium{
+  color: hsl(0, 0%, 100%);  
+}
+.equilibrium:hover{
+    color: hsl(178, 100%, 50%);
+    transition: ease-in-out;
+}
+.paragraph{
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+}
+
+.text-time{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.icons{
+    position: relative;
+    top: 15px;
+    left: 25px;  
+}
+
+.cyan{
+    color: hsl(178, 100%, 50%);
+    
+}
+.days{
+    color: hsl(215, 51%, 70%);
+}
+.footer{
+    padding-top: 10px;
+    display: flex;
+    padding-bottom: 10px;
+}
+.avatar{
+    height: 50px;
+    width: 50px;
+}
+.creation{
+    padding-left: 15px;
+}
+.name{
+    color: white;
+}
+.name:hover{
+    color: hsl(178, 100%, 50%);
+    transition: ease-in-out;
+}
+
+
+.attribution {
+    font-size: 11px; 
+    text-align: center; 
+    margin-top: 10px;
+   }
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+   }
+
+
+
+
+
+
+
